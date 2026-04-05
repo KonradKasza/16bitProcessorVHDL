@@ -1,0 +1,63 @@
+set_location_assignment PIN_C10 -to d1
+set_location_assignment PIN_C11 -to d2
+set_location_assignment PIN_A11 -to Z
+set_location_assignment PIN_B11 -to C
+set_location_assignment PIN_D14 -to S
+set_location_assignment PIN_D12 -to LDF
+set_location_assignment PIN_F15 -to Salu[4]
+set_location_assignment PIN_B14 -to Salu[3]
+set_location_assignment PIN_A14 -to Salu[2]
+set_location_assignment PIN_A13 -to Salu[1]
+set_location_assignment PIN_B12 -to Salu[0]
+set_location_assignment PIN_C14 -to segmenty[0]
+set_location_assignment PIN_E15 -to segmenty[1]
+set_location_assignment PIN_C15 -to segmenty[2]
+set_location_assignment PIN_C16 -to segmenty[3]
+set_location_assignment PIN_E16 -to segmenty[4]
+set_location_assignment PIN_D17 -to segmenty[5]
+set_location_assignment PIN_C17 -to segmenty[6]
+set_location_assignment PIN_C18 -to segmenty[7]
+set_location_assignment PIN_D18 -to segmenty[8]
+set_location_assignment PIN_E18 -to segmenty[9]
+set_location_assignment PIN_B16 -to segmenty[10]
+set_location_assignment PIN_A17 -to segmenty[11]
+set_location_assignment PIN_A18 -to segmenty[12]
+set_location_assignment PIN_B17 -to segmenty[13]
+set_location_assignment PIN_B20 -to segmenty[14]
+set_location_assignment PIN_A20 -to segmenty[15]
+set_location_assignment PIN_B19 -to segmenty[16]
+set_location_assignment PIN_A21 -to segmenty[17]
+set_location_assignment PIN_B21 -to segmenty[18]
+set_location_assignment PIN_C22 -to segmenty[19]
+set_location_assignment PIN_B22 -to segmenty[20]
+set_location_assignment PIN_F21 -to segmenty[21]
+set_location_assignment PIN_E22 -to segmenty[22]
+set_location_assignment PIN_E21 -to segmenty[23]
+set_location_assignment PIN_C19 -to segmenty[24]
+set_location_assignment PIN_C20 -to segmenty[25]
+set_location_assignment PIN_D19 -to segmenty[26]
+set_location_assignment PIN_E17 -to segmenty[27]
+set_location_assignment PIN_P11 -to clk
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C6GES
+set_global_assignment -name TOP_LEVEL_ENTITY alu
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 23.1STD.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:31:58  STYCZNIA 19, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name VHDL_FILE alu.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
